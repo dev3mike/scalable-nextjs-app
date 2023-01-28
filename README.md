@@ -12,7 +12,9 @@
 - Commitlint : Ensuring adherence to conventions in commit messages
 - Path Mapping : Using the `@` prefix to import components or other resources
 
-  
+## Scalable Architecture: The Concept of Decomposition
+  Adhering to the concept of decomposition, in which the project is composed of independent features, packages, or components. To achieve this, we maintain a global **packages** folder in the root directory, where all standalone components are stored as separate packages.
+  You can see one example component called **Footer**.
 
 ## Getting Started
 
@@ -26,3 +28,4 @@ To format the code using Prettier:
 ```bash
 yarn format
 ```
+
